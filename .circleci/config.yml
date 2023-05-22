@@ -18,10 +18,10 @@ jobs:
             - node_modules
           key : v1-dependencies-{{checksum "package.json"}}  
       - run :
-          name : deploy
-          command : npm install -g vercel
+          name : install vercel 
+          command : npm i -g vercel
       - run :
-          name : deploy
+          name : version vercel
           command : vercel --version  
       - run :
           name : deploy
