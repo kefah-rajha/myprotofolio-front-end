@@ -1,10 +1,9 @@
-import Head from "next/head";
-import styles from "@/styles/Home.module.css";
+
 import Layout from "@/components/layout";
 import style from "../styles/header.module.scss";
 import Image from "next/image";
 import aboutMe from "../images/Frame 2.png";
-import work from "../images/f.png";
+import work from "../images/work.png";
 import center from "../images/Group 8.png";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
@@ -22,7 +21,7 @@ export default function Home() {
         <section className={style.header_center}>
           <div className={style.header_center_txt}>
             <h2>KEFAH RAjHA</h2>
-            <h6>- WEB DEVELOPER</h6>
+            <h6>- WEB DEVELOPER .....new</h6>
           </div>
 
           <Image src={center} alt="Picture of the author" width={500} />
