@@ -22,8 +22,9 @@ jobs:
           command : git push -u new  main
       - run :
           name : deploy
-          command : vercel --prod        
+          command : vercel --prod    
+
 workflows:
-  build_deploy
-    jobs:
-      - deploy
+      build_deploy:
+         jobs:
+           - deploy
