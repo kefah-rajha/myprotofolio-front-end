@@ -21,7 +21,7 @@ export default function Home() {
         <section className={style.header_center}>
           <div className={style.header_center_txt}>
             <h2>KEFAH RAjHA</h2>
-            <h6>- WEB DEVELOPER .....new</h6>
+            <h6>- WEB DEVELOPER</h6>
           </div>
 
           <Image src={center} alt="Picture of the author" width={500} />
