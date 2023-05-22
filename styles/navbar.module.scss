@@ -1,0 +1,94 @@
+.navbar_container {
+    display: grid;
+    grid-template-columns: .75fr 6fr 3fr;
+    height: 65px;
+    width: 90%;
+    margin: auto;
+    color: #fff;
+    text-transform: capitalize;
+
+    .navbar_listIcon {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        .iconList {
+            width: 25px;
+            height: 20px;
+            cursor: pointer;
+        }
+    }
+
+    .navbar_list {
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 50px;
+
+        li {
+            font-size: 14px;
+            margin-right: 50px;
+            font-weight: 300;
+            cursor: pointer;
+            transition: all .1s;
+            white-space: nowrap;
+        }
+
+        li:hover {
+            padding: 3px 10px;
+            background-color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            color: #F89411;
+            font-weight: 700;
+            display: flex;
+            justify-content: center;
+            white-space: nowrap;
+            box-sizing: content-box;
+            caret-color: #fff;
+
+        }
+
+        .active {
+            padding: 3px 10px;
+            background-color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            color: #F89411;
+            font-weight: 700;
+            display: flex;
+            justify-content: center;
+            white-space: nowrap;
+            box-sizing: content-box;
+            caret-color: #fff;
+
+        }
+    }
+
+    .navber_button {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        button {
+            background-color: #fff;
+            color: #333333;
+            padding: 7px 7px;
+            border-radius: 5px;
+            margin-left: 10px;
+            font-weight: 800;
+            font-size: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+
+        }
+
+        button:hover {
+            color: #fff;
+            background-color: #333333;
+        }
+    }
+}
