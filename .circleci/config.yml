@@ -17,7 +17,9 @@ jobs:
           paths:
             - node_modules
           key : v1-dependencies-{{checksum "package.json"}}  
-      
+      - run :
+          name : deploy
+          command : npm install vercel
       - run :
           name : deploy
           command : vercel --prod    
